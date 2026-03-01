@@ -8,9 +8,7 @@ type GradeStatus
 
 
 auxiliar : Float -> GradeStatus
-
-
-auciliar num =
+auxiliar num =
     if num < 0 then
         Pending
 
@@ -50,7 +48,5 @@ airplaneScheduleAction status =
 
 
 airportAction : List AirplaneStatus -> List String
-
-
-irportAction lista =
+airportAction lista =
     List.map airplaneScheduleAction lista
